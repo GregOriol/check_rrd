@@ -25,4 +25,4 @@ define service {
 ```
 
 ## Checks available
-* disk-usage : checks free space, warning if <20%, alert if <10% (configs/disk-usage.php)
+* disk-usage : checks free space as average value for the last hour, emits warning if <20%, alert if <10% (configs/disk-usage.php)
