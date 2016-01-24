@@ -13,7 +13,7 @@ Nagios configuration:
 ```
 define command {
         command_name    check_rrd
-        command_line    /usr/bin/php $USER1$/check_trends/check_trends.php $ARG1$ -f $ARG2$
+        command_line    /usr/bin/php $USER1$/check_rrd/check_rrd.php $ARG1$ -f $ARG2$
 }
 
 define service {
