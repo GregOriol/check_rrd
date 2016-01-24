@@ -6,7 +6,8 @@ Nagios check script to read and alert on values from rrd files
 
 ## Setup
 Download check_rrd zip file or clone it into your Nagios's libexec folder (might be /usr/local/nagios/libexec/), then
-```$ composer.php install```
+```$ php composer.phar install```
+```$ php composer.phar dump-autoload -o```
 
 ## Usage
 Nagios configuration:
